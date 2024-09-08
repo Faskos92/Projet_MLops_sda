@@ -1,3 +1,2 @@
 echo "Projet_MLops.pdf" >> .gitignore
 venv/
-.github/workflows/aws.yaml
