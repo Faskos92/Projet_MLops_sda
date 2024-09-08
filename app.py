@@ -5,8 +5,9 @@ import pandas as pd
 app = Flask(__name__)
 
 # Charger le modèle depuis le fichier
-model_path = r"C:\Users\nosty\Desktop\Projet_Mlops\logistic_model.pkl"
+model_path = "logistic_model.pkl"
 model = pickle.load(open(model_path, "rb"))
+
 
 # Fonction pour effectuer la prédiction
 def model_pred(features):
