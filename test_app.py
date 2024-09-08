@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Charger le modèle depuis le fichier pour le test
-model_path = r"C:\Users\nosty\Desktop\Projet_Mlops\logistic_model.pkl"
+model_path = "logistic_model.pkl" 
 model = pickle.load(open(model_path, "rb"))
 
 # Redéfinir la fonction model_pred pour utiliser le modèle chargé

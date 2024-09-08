@@ -5,7 +5,8 @@ import pandas as pd
 app = Flask(__name__)
 
 # Charger le modèle depuis le fichier
-model_path = "logistic_model.pkl"
+model_path = "logistic_model.pkl"    # Chemein
+
 model = pickle.load(open(model_path, "rb"))
 
 
