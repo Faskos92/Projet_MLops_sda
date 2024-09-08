@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/241207475328355131
+creation_time: 1725808273082
+experiment_id: '241207475328355131'
+last_update_time: 1725808273082
+lifecycle_stage: active
+name: Bank_model

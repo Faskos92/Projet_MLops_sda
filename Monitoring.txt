@@ -1,0 +1,5 @@
+Space Key: 687119e
+API Key: d9afff2eb846acbf236
+
+pip install arize
+python app_monitoring.py  # Pour lancer l'application

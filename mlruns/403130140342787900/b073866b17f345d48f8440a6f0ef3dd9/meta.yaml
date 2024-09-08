@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/nosty/Desktop/Projet_Mlops/mlruns/403130140342787900/b073866b17f345d48f8440a6f0ef3dd9/artifacts
+end_time: 1725808748438
+entry_point_name: ''
+experiment_id: '403130140342787900'
+lifecycle_stage: active
+run_id: b073866b17f345d48f8440a6f0ef3dd9
+run_name: Logistic_Regression_Model
+run_uuid: b073866b17f345d48f8440a6f0ef3dd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725808740609
+status: 3
+tags: []
+user_id: LENOVO

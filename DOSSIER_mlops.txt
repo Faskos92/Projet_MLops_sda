@@ -1,0 +1,12 @@
+ecr= mlops
+cluster= 
+Acces_key_ID= AKIAQE43JZ24R2CNPY5L
+Acces_Pass = 0AuQt3Lqkc8Ghanu91e1AEVEj7v3yReZ+arulBhj
+service = 
+Tache = 
+Container_Name = 
+region = eu-west-3
+
+Docker_name= faskoul
+Docker_repository= deploy
+Docker_pass = Kiyali@92
