@@ -9,8 +9,8 @@ env:
   ECR_REPOSITORY: mlops                   # Nom de votre repository Amazon ECR
   ECS_SERVICE: Mlops_service               # Nom de votre service Amazon ECS
   ECS_CLUSTER: MlopsClusterProjet          # Nom de votre cluster Amazon ECS
-  ECS_TASK_DEFINITION: mlops_reglog        # Fichier task definition Amazon ECS (ajustez-le)
-  CONTAINER_NAME: Compteneur_sda           # Nom du conteneur dans la définition de la tâche
+  ECS_TASK_DEFINITION: mlops_tache        # Fichier task definition Amazon ECS (ajustez-le)
+  CONTAINER_NAME: conteneur_mlops           # Nom du conteneur dans la définition de la tâche
 
 permissions:
   contents: read
