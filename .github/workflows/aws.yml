@@ -5,7 +5,7 @@ on:
     branches: [ "main" ] 
 
 env:
-  AWS_REGION: eu-west-3                   # Assurez-vous que cette région est correcte pour votre AWS
+  AWS_REGION: eu-west-3                  # Assurez-vous que cette région est correcte pour votre AWS
   ECR_REPOSITORY: mlops                   # Nom de votre repository Amazon ECR
   ECS_SERVICE: Mlops_service               # Nom de votre service Amazon ECS
   ECS_CLUSTER: MlopsClusterProjet          # Nom de votre cluster Amazon ECS
