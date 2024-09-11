@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: mlops                   # Nom de votre repository Amazon ECR
   ECS_SERVICE: Mlops_service               # Nom de votre service Amazon ECS
   ECS_CLUSTER: MlopsClusterProjet          # Nom de votre cluster Amazon ECS
-  ECS_TASK_DEFINITION: ecsTaskdefinition        # Fichier task definition Amazon ECS (ajustez-le)
+  ECS_TASK_DEFINITION: mlops_tache        # Fichier task definition Amazon ECS (ajustez-le)
   CONTAINER_NAME: conteneur_mlops           # Nom du conteneur dans la définition de la tâche
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
 
     # Configuration des identifiants AWS
     - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@v2
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}   # Utilise les clés stockées dans GitHub Secrets
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  # Utilise les clés stockées dans GitHub Secrets
